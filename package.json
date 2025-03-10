@@ -1,1 +1,23 @@
-{"homepage":"https://github.com/Fnu-Dorjee/4schools","name":"react-essentials-start","version":"0.0.0","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"react":"^19.0.0","react-dom":"^19.0.0"},"devDependencies":{"@vitejs/plugin-react":"^4.3.4","gh":"^1.13.9","vite":"^6.2.1"},"keywords":[],"description":""}
+{ "homepage": "https://Fnu-Dorjee.github.io/4schools",
+  "name": "4schools",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+    
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh": "^2.8.9",
+    "vite": "^6.2.1"
+  },
+  "keywords": [],
+  "description": ""
+}
